@@ -121,8 +121,9 @@ class BuildStructureFeatureTest {
         baseArgs.put("y", 0);
         baseArgs.put("z", 0);
 
-        // All four types should work
-        for (String type : new String[]{"platform", "wall", "tower", "house"}) {
+        // All ten types should work
+        for (String type : new String[]{"platform", "wall", "tower", "house",
+                "bridge", "staircase", "fence", "arch", "road", "well"}) {
             assertDoesNotThrow(
                     () -> feature.generateStructure(type, new HashMap<>(baseArgs),
                             MaterialPresets.STONE_CASTLE, new RecordingBlockPlacer()),
