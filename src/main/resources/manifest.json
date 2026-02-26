@@ -1,0 +1,18 @@
+{
+  "Group": "fr.thinkbit",
+  "Name": "StructureBuilder",
+  "Version": "1.0.0",
+  "Description": "High-level procedural structure generation via a single MCP tool call",
+  "Authors": [
+    {
+      "Name": "ThinkBit"
+    }
+  ],
+  "ServerVersion": "2026.02.19-1a311a592",
+  "Dependencies": {
+    "Top-Games:MCP": "0.2.0"
+  },
+  "OptionalDependencies": {},
+  "DisabledByDefault": false,
+  "Main": "fr.thinkbit.hytale.structurebuilder.StructureBuilderPlugin"
+}
